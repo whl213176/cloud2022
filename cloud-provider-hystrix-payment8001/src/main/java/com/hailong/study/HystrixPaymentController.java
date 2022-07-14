@@ -33,6 +33,7 @@ public class HystrixPaymentController {
     String result = service.PaymentInfo_TimeOut(id);
     log.info("result:" + result);
     log.info("测试push");
+    log.info("测试pull")
     return result;
   }
 
