@@ -32,6 +32,7 @@ public class HystrixPaymentController {
   public String getTimeOut(@PathVariable("id") Integer id) {
     String result = service.PaymentInfo_TimeOut(id);
     log.info("result:" + result);
+    log.info("测试push");
     return result;
   }
 
