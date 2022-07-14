@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 
 /**
  * @author wuhailong
- * @date 2022/5/24.
+ * @date 2022/5/24
  */
 
 @Data
@@ -17,6 +17,7 @@ import lombok.NoArgsConstructor;
 public class Payment {
 
   private long id;
+
 
   private String serial;
 
